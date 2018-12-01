@@ -37,7 +37,7 @@ public class Cadrastro extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel1 = new javax.swing.JLabel();
+        Imagem = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         ID = new javax.swing.JTextField();
@@ -54,7 +54,7 @@ public class Cadrastro extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/rpgoneclick/AtiradorDiminuido.png"))); // NOI18N
+        Imagem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/rpgoneclick/Imagen's/AtiradorDiminuido.png"))); // NOI18N
 
         jLabel2.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 0, 18)); // NOI18N
         jLabel2.setText("ID:");
@@ -113,7 +113,7 @@ public class Cadrastro extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jLabel1)
+                .addComponent(Imagem)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -140,7 +140,7 @@ public class Cadrastro extends javax.swing.JFrame {
                                     .addComponent(ConfirmeSenha, javax.swing.GroupLayout.PREFERRED_SIZE, 199, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(Nick, javax.swing.GroupLayout.PREFERRED_SIZE, 199, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(MensagemSenha, javax.swing.GroupLayout.PREFERRED_SIZE, 199, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                        .addGap(0, 45, Short.MAX_VALUE))
+                        .addGap(0, 0, Short.MAX_VALUE))
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
@@ -185,7 +185,7 @@ public class Cadrastro extends javax.swing.JFrame {
                         .addGap(8, 8, 8))
                     .addGroup(layout.createSequentialGroup()
                         .addContainerGap()
-                        .addComponent(jLabel1)))
+                        .addComponent(Imagem)))
                 .addContainerGap(24, Short.MAX_VALUE))
         );
 
@@ -328,11 +328,11 @@ public class Cadrastro extends javax.swing.JFrame {
     private javax.swing.JButton Envia;
     private javax.swing.JRadioButton Fem;
     private javax.swing.JTextField ID;
+    private javax.swing.JLabel Imagem;
     private javax.swing.JRadioButton Masc;
     private javax.swing.JLabel MensagemSenha;
     private javax.swing.JTextField Nick;
     private javax.swing.JPasswordField Senha;
-    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;

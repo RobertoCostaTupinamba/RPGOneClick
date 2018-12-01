@@ -1,4 +1,4 @@
-/*
+ /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
@@ -191,7 +191,7 @@ public class GameBegin extends javax.swing.JFrame {
                                 }
                             }
                         }
-                   
+                   dispose();
                 }
        }.start();
     }
@@ -227,19 +227,19 @@ public class GameBegin extends javax.swing.JFrame {
         });
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        luzLobo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/rpgoneclick/magoLuzUtilizar.png"))); // NOI18N
+        luzLobo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/rpgoneclick/Imagen's/magoLuzUtilizar.png"))); // NOI18N
         getContentPane().add(luzLobo, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 410, -1, -1));
 
-        Lobo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/rpgoneclick/3.png"))); // NOI18N
+        Lobo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/rpgoneclick/Imagen's/3.png"))); // NOI18N
         getContentPane().add(Lobo, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 440, -1, -1));
 
-        Guri.setIcon(new javax.swing.ImageIcon(getClass().getResource("/rpgoneclick/CriançaRPG2.png"))); // NOI18N
+        Guri.setIcon(new javax.swing.ImageIcon(getClass().getResource("/rpgoneclick/Imagen's/CriançaRPG2.png"))); // NOI18N
         getContentPane().add(Guri, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 460, -1, -1));
 
-        magiaLuzMago.setIcon(new javax.swing.ImageIcon(getClass().getResource("/rpgoneclick/magoLuzUtilizar.png"))); // NOI18N
+        magiaLuzMago.setIcon(new javax.swing.ImageIcon(getClass().getResource("/rpgoneclick/Imagen's/magoLuzUtilizar.png"))); // NOI18N
         getContentPane().add(magiaLuzMago, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 360, 140, 130));
 
-        Mago.setIcon(new javax.swing.ImageIcon(getClass().getResource("/rpgoneclick/UsingMago.png"))); // NOI18N
+        Mago.setIcon(new javax.swing.ImageIcon(getClass().getResource("/rpgoneclick/Imagen's/UsingMago.png"))); // NOI18N
         Mago.addAncestorListener(new javax.swing.event.AncestorListener() {
             public void ancestorMoved(javax.swing.event.AncestorEvent evt) {
                 MagoAncestorMoved(evt);
@@ -255,7 +255,7 @@ public class GameBegin extends javax.swing.JFrame {
         historia.setForeground(new java.awt.Color(255, 255, 255));
         getContentPane().add(historia, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 780, 39));
 
-        Fundo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/rpgoneclick/FlorestaInicio.png"))); // NOI18N
+        Fundo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/rpgoneclick/Imagen's/FlorestaInicio.png"))); // NOI18N
         getContentPane().add(Fundo, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
         pack();
